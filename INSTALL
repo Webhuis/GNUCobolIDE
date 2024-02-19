@@ -1,0 +1,9 @@
+Steps to install GnuCobolIDE (there will be an installable package later on).
+
+1. Download GnuCobolIDE and pyqode3 from https://github.com/Webhuis
+2. cp scripts/gnucobolide to /usr/local/bin
+3. cp package pyqode3 to /usr/lib/python3/dist-packages
+4. cp the contents of the gnucobolide directory to /usr/local/lib/python3.10/dist-packages/gnucobolide
+
+In a terminal run gnucobolide
+
