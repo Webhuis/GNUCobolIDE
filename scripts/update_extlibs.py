@@ -1,11 +1,12 @@
+#!/usr/bin/env python3
 """
 This script updates OCIDE's extlibs (the pure python dependencies are now
-bundled into the open_cobol_ide package as package data,
-../open_cobol_ide/extlibs).
+bundled into the gnucobolide package as package data,
+../gnucobolide/extlibs).
 
 Here is the list of bundled packages:
 
-  - pyqode.qt
+  - qtpy
   - pyqode.core
   - pyqode.cobol
   - pygments
@@ -22,18 +23,18 @@ import os
 import shutil
 
 # packages to embed
+import qtpy
 import pyqode.qt
 import pyqode.core
 import pyqode.cobol
 import pygments
-import future
+#import future
 import qdarkstyle
 import keyring
 import enum
-import qcrash
 
 
-BUILD = os.path.abspath('../open_cobol_ide/extlibs')
+BUILD = os.path.abspath('../extlibs/')
 
 README = '''This directory contains the pure python dependencies of OCIDE.
 
@@ -81,5 +82,5 @@ except FileExistsError:
     shutil.rmtree(BUILD)
     os.mkdir(BUILD)
 finally:
-    embed_packages([future, pygments, qdarkstyle, keyring, pyqode.qt,
-                    pyqode.core, pyqode.cobol, enum, qcrash])
+    embed_packages([pygments, qdarkstyle, keyring, pyqode.qt,
+                    pyqode.core, pyqode.cobol, enum])

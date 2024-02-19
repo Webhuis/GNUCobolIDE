@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Configures the test suite and describe the global fixture that can be used
 in functional tests.
@@ -5,11 +6,11 @@ in functional tests.
 """
 import pytest
 import shutil
-from open_cobol_ide import __version__, main
+from gnucobolide import __version__, main
 main.override_sys_path()
-from open_cobol_ide.app import Application  # noqa
-from open_cobol_ide.logger import setup_logging  # noqa
-from open_cobol_ide.settings import Settings  # noqa
+from gnucobolide.app import Application  # noqa
+from gnucobolide.logger import setup_logging  # noqa
+from gnucobolide.settings import Settings  # noqa
 
 setup_logging(__version__)
 

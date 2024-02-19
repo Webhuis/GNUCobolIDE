@@ -1,0 +1,12 @@
+Metadata-Version: 0.1
+Name: gnucobolide
+Version: 4.7.6
+Summary: GNUCobolIDE is a remake of OpenCobolIDE
+Keywords: Cobol
+Author-email: Martin Simons <martin@webhuis.nl>
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+#Requires-Dist: qtawesome
+Project-URL: Documentation, https://github.com/open-cogsci/pyqode.python
+Project-URL: Source, https://github.com/open-cogsci/pyqode.python
+

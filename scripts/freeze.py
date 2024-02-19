@@ -10,7 +10,7 @@ import shutil
 import sys
 from cx_Freeze import setup, Executable
 from pyqode.core.tools import console
-from open_cobol_ide import __version__, backend
+from gnucobolide import __version__, backend
 from pyqode.core.backend import server as core_server
 from pyqode.core.api.syntax_highlighter import get_all_styles
 from pygments import lexers

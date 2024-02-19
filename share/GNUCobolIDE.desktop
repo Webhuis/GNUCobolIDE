@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GNUCobolIDE
+Comment=A simple lightweight cobol IDE based on OpenCobol
+TryExec=gnucobolide
+Exec=gnucobolide %F
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/GNUCobolIDE.png
+Categories=Development;IDE;
+MimeType=text/x-cobol;

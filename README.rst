@@ -1,7 +1,7 @@
-OpenCobolIDE
+GNUCobolIDE
 ------------
 
-**OpenCobolIDE is no longer maintained**, see https://github.com/OpenCobolIDE/OpenCobolIDE/issues/439
+**GNUCobolIDE is no longer maintained**, see https://github.com/GNUCobolIDE/GNUCobolIDE/issues/439
 
 Features:
 ---------
@@ -25,7 +25,7 @@ Features:
 License
 -------
 
-OpenCobolIDE is released under the **GPL** version 3
+GNUCobolIDE is released under the **GPL** version 3
 
 
 Dependencies
@@ -53,7 +53,7 @@ Installation
 GNU/Linux
 #########
 
-*Note: starting from v4.6.2, the installed executable name is lowercase: opencobolide*
+*Note: starting from v4.6.2, the installed executable name is lowercase: gnucobolide*
 
 Ubuntu
 ++++++
@@ -72,19 +72,19 @@ A RPM package for Fedora 23 is available here: https://launchpad.net/cobcide/+do
 ArchLinux
 +++++++++
 
-OpenCobolIDE is available from the `AUR`_.
+GNUCobolIDE is available from the `AUR`_.
 
 You can install using one of the many available AUR helper; e.g. using yaourt::
 
-    yaourt -S opencobolide
+    yaourt -S gnucobolide
 
 KaOS
 ++++
 
-OpenCobolIDE is up in the KaOs Community Packages (KCP)::
+GNUCobolIDE is up in the KaOs Community Packages (KCP)::
 
     kcp -i gnu-cobol
-    kcp -i opencobolide
+    kcp -i gnucobolide
 
 
 Other distributions
@@ -92,7 +92,7 @@ Other distributions
 
 Install Python3, PyQt5, GnuCOBOL and pip for Python3 using your package manager, then run the following commands::
 
-    sudo pip3 install OpenCobolIDE --upgrade
+    sudo pip3 install GNUCobolIDE --upgrade
 
 
 Note that if you have both PyQt5 and PyQt4 on your system, the IDE will use
@@ -135,36 +135,36 @@ Screenshots
 
 * Home page:
 
-.. image:: https://raw.githubusercontent.com/OpenCobolIDE/OpenCobolIDE/master/doc/source/_static/Home.png
+.. image:: https://raw.githubusercontent.com/GNUCobolIDE/GNUCobolIDE/master/doc/source/_static/Home.png
     :align: center
 
 * Editor:
 
-.. image:: https://raw.githubusercontent.com/OpenCobolIDE/OpenCobolIDE/master/doc/source/_static/MainWindow.png
+.. image:: https://raw.githubusercontent.com/GNUCobolIDE/GNUCobolIDE/master/doc/source/_static/MainWindow.png
     :align: center
 
 * Code folding:
 
-.. image:: https://raw.githubusercontent.com/OpenCobolIDE/OpenCobolIDE/master/doc/source/_static/Folding.png
+.. image:: https://raw.githubusercontent.com/GNUCobolIDE/GNUCobolIDE/master/doc/source/_static/Folding.png
     :align: center
 
 * Offset calculator
 
-.. image:: https://raw.githubusercontent.com/OpenCobolIDE/OpenCobolIDE/master/doc/source/_static/PicOffsets.png
+.. image:: https://raw.githubusercontent.com/GNUCobolIDE/GNUCobolIDE/master/doc/source/_static/PicOffsets.png
     :align: center
 
 
 * Dark style support
 
-.. image:: https://raw.githubusercontent.com/OpenCobolIDE/OpenCobolIDE/master/doc/source/_static/Dark.png
+.. image:: https://raw.githubusercontent.com/GNUCobolIDE/GNUCobolIDE/master/doc/source/_static/Dark.png
     :align: center
 
 
 .. _PyQt4: http://www.riverbankcomputing.co.uk/software/pyqt/download
 .. _Downloads: https://launchpad.net/cobcide/+download
-.. _Source repository: https://github.com/OpenCobolIDE/OpenCobolIDE/
-.. _Issue tracker: https://github.com/OpenCobolIDE/OpenCobolIDE/issues?state=open
-.. _Documentation: http://opencobolide.readthedocs.org/en/latest/
+.. _Source repository: https://github.com/GNUCobolIDE/GNUCobolIDE/
+.. _Issue tracker: https://github.com/GNUCobolIDE/GNUCobolIDE/issues?state=open
+.. _Documentation: http://gnucobolide.readthedocs.org/en/latest/
 .. _Pygments: http://pygments.org/
 .. _pyqode.core: https://github.com/pyQode/pyqode.core/
 .. _pyqode.cobol: https://github.com/pyQode/pyqode.cobol/
@@ -178,4 +178,4 @@ Screenshots
 .. _githubpy: https://pypi.python.org/pypi/githubpy
 .. _keyring: https://pypi.python.org/pypi/keyring
 .. _HackEdit: https://github.com/HackEdit/hackedit
-.. _AUR: https://aur.archlinux.org/packages/opencobolide/
+.. _AUR: https://aur.archlinux.org/packages/gnucobolide/

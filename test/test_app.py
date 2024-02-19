@@ -1,5 +1,6 @@
+#!/usr/bin/env python3
 import sys
-from open_cobol_ide.settings import Settings
+from gnucobolide.settings import Settings
 
 
 def test_parse_args(app):

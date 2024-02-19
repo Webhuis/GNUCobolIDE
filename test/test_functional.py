@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Integration test:
   - start the IDE
@@ -11,9 +12,9 @@ from pyqode.qt import QtWidgets
 from pyqode.qt import QtCore
 from pyqode.qt.QtTest import QTest
 import pytest
-from open_cobol_ide import system
-from open_cobol_ide.controllers.view import Page
-from open_cobol_ide.settings import Settings
+from gnucobolide import system
+from gnucobolide.controllers.view import Page
+from gnucobolide.settings import Settings
 
 path_ok = os.path.join(os.getcwd(), 'test', 'testfiles', 'HelloWorld.cbl')
 path_ko = os.path.join(os.getcwd(), 'test', 'testfiles', 'MALFORMED.cbl')

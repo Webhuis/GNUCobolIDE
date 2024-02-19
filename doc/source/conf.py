@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # pyQode documentation build configuration file, created by
 # sphinx-quickstart on Thu Jan  3 17:16:17 2013.
@@ -18,7 +18,7 @@ import sys, os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath('../..'))
 
-from open_cobol_ide import __version__
+from gnucobolide import __version__
 
 # -- General configuration -----------------------------------------------------
 

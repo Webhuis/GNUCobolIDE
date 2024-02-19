@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Setup script for OpenCobolIDE
+Setup script for GNUCobolIDE
 
 You will need to install PyQt4 (or PyQt5) and GnuCOBOL on your own.
 
@@ -8,7 +8,7 @@ You will need to install PyQt4 (or PyQt5) and GnuCOBOL on your own.
 import sys
 from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
-from open_cobol_ide import __version__
+from gnucobolide import __version__
 
 try:
     from pyqt_distutils.build_ui import build_ui
@@ -53,8 +53,8 @@ with open('README.rst', 'r') as readme:
 data_files = []
 if sys.platform == 'linux':
     data_files.append(('/usr/share/applications',
-                       ['share/OpenCobolIDE.desktop']))
-    data_files.append(('/usr/share/pixmaps', ['share/OpenCobolIDE.png']))
+                       ['share/GNUCobolIDE.desktop']))
+    data_files.append(('/usr/share/pixmaps', ['share/GNUCobolIDE.png']))
 
 
 if 'bdist_wheel' in sys.argv:
@@ -62,10 +62,10 @@ if 'bdist_wheel' in sys.argv:
 
 
 setup(
-    name='OpenCobolIDE',
+    name='GNUCobolIDE',
     version=__version__,
     keywords=['Cobol; OpenCobol; IDE'],
-    url='https://github.com/OpenCobolIDE/OpenCobolIDE',
+    url='https://github.com/GNUCobolIDE/GNUCobolIDE',
     license='GPL v3',
     author='Colin Duquesnoy',
     author_email='colin.duquesnoy@gmail.com',
@@ -74,9 +74,9 @@ setup(
     packages=[p for p in find_packages() if 'test' not in p],
     data_files=data_files,
     include_package_data=True,
-    entry_points={'gui_scripts': ['opencobolide = open_cobol_ide.main:main'],
+    entry_points={'gui_scripts': ['gnucobolide = gnucobolide.main:main'],
                   'console_scripts':
-                  ['opencobolide-console = open_cobol_ide.main:main']
+                  ['gnucobolide-console = gnucobolide.main:main']
                   if sys.platform == 'win32' else []},
     cmdclass=cmdclass,
     zip_safe=False,

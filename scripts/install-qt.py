@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Simple script to install PyQt or PySide in CI (Travis and AppVeyor).
 """

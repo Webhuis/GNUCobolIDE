@@ -8,3 +8,6 @@ githubpy
 keyring
 pyqode-uic
 pyqt-distutils
+PyQt5
+PySide2
+distro

@@ -1,3 +1,8 @@
+gnucobolide
+- **Martin Simons** (@Webhuis)
+
+Forked from opencobolide
+Many thanks to:
 - **Colin Duquesnoy** (@ColinDuquesnoy)
     Main developper
 
